@@ -7,6 +7,8 @@ import HC_exporting from 'highcharts/modules/exporting';
   templateUrl: './pie.component.html',
   styleUrls: ['./pie.component.scss']
 })
+
+// Pie Component
 export class PieComponent implements OnInit {
 
   Highcharts = Highcharts;
