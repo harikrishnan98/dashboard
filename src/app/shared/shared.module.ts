@@ -10,6 +10,13 @@ import { AreaComponent } from './widgets/area/area.component';
 import {HighchartsChartModule} from 'highcharts-angular';
 import { CardComponent } from './widgets/card/card.component';
 import { PieComponent } from './widgets/pie/pie.component';
+import { BarChartComponent } from './widgets/bar-chart/bar-chart.component';
+import { LineChartComponent} from './widgets/line-chart/line.component';
+import {BasicColumnComponent} from './widgets/basic-column/basic.component';
+import {PercentageAreaComponent} from './widgets/percentage-area/percentage.component';
+import {StackedAreaComponent} from './widgets/stacked-area/stacked.component';
+
+
 
 
 
@@ -23,7 +30,12 @@ import { PieComponent } from './widgets/pie/pie.component';
     SidebarComponent,
     AreaComponent,
     CardComponent,
-    PieComponent
+    PieComponent,
+    BarChartComponent,
+    LineChartComponent,
+    BasicColumnComponent,
+    PercentageAreaComponent,
+    StackedAreaComponent
   ],
   imports: [
     CommonModule,
@@ -44,7 +56,12 @@ import { PieComponent } from './widgets/pie/pie.component';
     SidebarComponent,
     AreaComponent,
     CardComponent,
-    PieComponent
+    PieComponent,
+    BarChartComponent,
+    LineChartComponent,
+    BasicColumnComponent,
+    PercentageAreaComponent,
+    StackedAreaComponent
   ]
 })
 export class SharedModule { }

@@ -1,1 +1,61 @@
-<p>posts works!</p>
+<div class="container">
+
+    <table border="1px solid"  class="table-content" >
+
+        <thead >
+            <tr>
+                <th>Metrics</th>
+                <th>Undefined</th>
+            </tr>
+        </thead>
+        <tbody >
+       
+          <tr *ngFor="let item of dashboard;">
+              <td >{{item.Metrics  }}</td>
+              <td >{{item.undefined}}</td>
+              
+      
+          </tr>
+        </tbody>
+
+    </table>
+
+    <br>
+
+    
+    <table border="1px solid"  class="table-content" >
+
+        <thead>
+            <tr>
+                <th>Order Date</th>
+                <th>Region</th>
+                <th>Customer</th>
+                <th>Item</th>
+                <th>Units</th>
+                <th>Unit Cost</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+       
+          <tr *ngFor="let data of orginalData;">
+              <td>{{ data.OrderDate }}</td>
+              <td>{{data.Region}}</td>
+              <td>{{data.Customer}}</td>
+              <td>{{data.Item}}</td>
+              <td>{{data.Units}}</td>
+              <td>{{data['Unit Cost']}}</td>
+              <td>{{data.Total}}</td>
+              
+
+
+              
+      
+          </tr>
+        </tbody>
+
+    </table>
+
+
+
+</div>
