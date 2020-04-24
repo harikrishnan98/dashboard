@@ -8,7 +8,6 @@ import {FlexLayoutModule} from '@angular/flex-layout'
 import { RouterModule } from '@angular/router';
 import { AreaComponent } from './widgets/area/area.component';
 import {HighchartsChartModule} from 'highcharts-angular';
-import { CardComponent } from './widgets/card/card.component';
 import { PieComponent } from './widgets/pie/pie.component';
 import { BarChartComponent } from './widgets/bar-chart/bar-chart.component';
 import { LineChartComponent} from './widgets/line-chart/line.component';
@@ -29,7 +28,6 @@ import {StackedAreaComponent} from './widgets/stacked-area/stacked.component';
     FooterComponent,
     SidebarComponent,
     AreaComponent,
-    CardComponent,
     PieComponent,
     BarChartComponent,
     LineChartComponent,
@@ -55,7 +53,6 @@ import {StackedAreaComponent} from './widgets/stacked-area/stacked.component';
     FooterComponent,
     SidebarComponent,
     AreaComponent,
-    CardComponent,
     PieComponent,
     BarChartComponent,
     LineChartComponent,
